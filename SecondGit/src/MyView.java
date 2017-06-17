@@ -17,7 +17,7 @@ public class MyView {
 	public static void main(String[] args)  {
 		
 		
-		    System.out.println("Calling");
+		    System.out.println("Calling 2");
 			ApplicationContext ctx = new ClassPathXmlApplicationContext("myspringioc.xml");
 			IMyService service = (IMyService) ctx.getBean("myservice");
 			service.count();
