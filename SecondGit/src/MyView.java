@@ -18,7 +18,7 @@ public class MyView {
 		
 		
 
-		    System.out.println("Calling 25");
+		    System.out.println("Calling 26");
 		    
 		    
 		    ApplicationContext ctx = new ClassPathXmlApplicationContext("myspringioc.xml");
