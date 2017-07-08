@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="D:/dev-install-tools/spring-framework-4.2.2.RELEASE-dist/spring-framework-4.2.2.RELEASE/libs/spring-core-4.2.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/documentation/java/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="D:/dev-install-tools/spring-framework-4.2.2.RELEASE-dist/spring-framework-4.2.2.RELEASE/libs/spring-expression-4.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/dev-install-tools/spring-framework-4.2.2.RELEASE-dist/spring-framework-4.2.2.RELEASE/libs/spring-aop-4.2.2.RELEASE.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -1,6 +1,7 @@
 
 
 import org.services.IMyService;
+import org.services.MyServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,7 +21,7 @@ public class MyView {
 
 		    System.out.println("Calling 26");
 		    ApplicationContext ctx = new ClassPathXmlApplicationContext("myspringioc.xml");
-			IMyService service = (IMyService) ctx.getBean("myservice");
+		    MyServiceImpl service = (MyServiceImpl) ctx.getBean("myservice");
 			service.count();
 			
 		
